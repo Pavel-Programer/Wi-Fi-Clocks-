@@ -6,8 +6,8 @@ LCD_1602_RUS lcd(0x27, 16, 2);
 #include <WiFiUdp.h>
 #include <NTPClient.h>
 
-const char *ssid = "AKADO-3288";
-const char *password = "DDD9LT5DADU4";
+const char *ssid = "Ssid-name"; //enter ssid here
+const char *password = "Passward";  //enter passward here
 
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 10800, 60000);
