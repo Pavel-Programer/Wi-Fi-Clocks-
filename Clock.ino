@@ -10,7 +10,7 @@ const char *ssid = "Ssid-name"; //enter ssid here
 const char *password = "Passward";  //enter passward here
 
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 10800, 60000);
+NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", 10800, 60000);// Time sittings
 
 void setup() {
   lcd.init();
